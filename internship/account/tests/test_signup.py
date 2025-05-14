@@ -17,8 +17,8 @@ class TestSignup:
         }
         response = self.client.post(self.url, data, format="json")
         assert response.status_code == 201
-        assert response.data["user"]["username"] == "testuser"
-        assert response.data["user"]["nickname"] == "tester"
+        assert response.data["username"] == "testuser"
+        assert response.data["nickname"] == "tester"
 
     def test_signup_duplicate_username(self):
         # 먼저 사용자 생성

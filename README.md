@@ -9,7 +9,7 @@ Pytest 기반 테스트와 Swagger 문서화, 그리고 AWS EC2 배포까지 완
 -drf-yasg (Swagger)
 - Pytest
 - AWS EC2 (ubuntu 22.04)
-- MobaXterm (접속 중)
+- MobaXterm
 
 ## 주요 기능
 
